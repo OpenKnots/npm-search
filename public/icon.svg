@@ -1,0 +1,27 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: black; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: white; }
+      .foreground { fill: black; }
+    }
+  </style>
+  <g clip-path="url(#clip0)">
+    <rect class="background" width="180" height="180" rx="37" />
+    <text class="foreground"
+      x="90" y="108"
+      font-family="Arial Black, Impact, Helvetica, sans-serif"
+      font-weight="900"
+      font-size="72"
+      text-anchor="middle"
+      letter-spacing="-2">NPM</text>
+  </g>
+  <defs>
+    <clipPath id="clip0">
+      <rect width="180" height="180" rx="37" fill="white" />
+    </clipPath>
+  </defs>
+</svg>

@@ -8,6 +8,9 @@ import { Button } from '@/components/ui/button'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { searchPackages, getDownloadCount } from '@/lib/npm-api'
 
+// Opt out of static prerendering — username is always dynamic
+export const dynamic = 'force-dynamic'
+
 interface UserPageProps {
   params: Promise<{ username: string }>
 }
